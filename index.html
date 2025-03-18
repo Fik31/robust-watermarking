@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robust Watermarking Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Robust Watermarking Demo</h1>
+    <div class="upload-section">
+      <label for="imageUpload" class="upload-label">Upload an Image:</label>
+      <input type="file" id="imageUpload" accept="image/*">
+    </div>
+    <canvas id="canvas"></canvas>
+    <div class="button-group">
+      <button id="addWatermark">Add Watermark</button>
+      <button id="extractWatermark">Extract Watermark</button>
+    </div>
+    <h2>Apply Attacks</h2>
+    <div class="attack-buttons">
+      <button id="addNoise">Add Noise</button>
+      <button id="scaling">Scaling</button>
+      <button id="rotation">Rotation</button>
+      <button id="cropping">Cropping</button>
+      <button id="blurring">Blurring</button>
+      <button id="brightnessAdjustment">Brightness Adjustment</button>
+      <button id="jpegCompression">JPEG Compression</button>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
