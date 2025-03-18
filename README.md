@@ -1,2 +1,5 @@
-# robust-watermarking
-ICT Professional Ethics - University Project
+# Robust Watermarking
+
+5th Semester University Project
+
+_ICT Professional Ethics - UBSI_
